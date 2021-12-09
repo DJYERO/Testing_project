@@ -30,4 +30,4 @@ model = init_detector(config, checkpoint, device="cuda:0")
 
 img = '../demo/demo.jpg'
 result = inference_detector(model, img)
-show_result_pyplot(model, img, result,score_thr=0.3)
+show_result_pyplot(model, img, result, score_thr=0.3)
